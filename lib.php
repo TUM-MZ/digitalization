@@ -260,7 +260,7 @@ function digitalization_print_recent_activity($course, $viewfullnames, $timestar
  *
  * @return boolean
  **/
-function digitalization_cron() {
+function digitalization_check_deliveries() {
 	global $DB, $CFG;
 
 	require_once("filetransfer/stub.php");
