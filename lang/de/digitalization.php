@@ -30,7 +30,7 @@ defined('MOODLE_INTERNAL') || die();
 //Common module fields
 $string['modulename'] = 'Digit. Semesterapparat';
 $string['modulenameplural'] = 'Digit. Semesterapparate';
-$string['modulename_help'] = 'Bestellen Sie Digitalisate von Zeitschriftenaufsätzen oder Buchkapiteln aus dem Bestand der Universitätsbibliothek. <br>Recherchieren Sie komfortabel im Online-Katalog (OPAC) die Literaturangaben. 
+$string['modulename_help'] = 'Bestellen Sie Digitalisate von Zeitschriftenaufsätzen oder Buchkapiteln aus dem Bestand der Universitätsbibliothek. <br>Recherchieren Sie komfortabel im Online-Katalog (OPAC) die Literaturangaben.
 Dort finden Sie unter \'Bestellen\' den digitalen Semesterapparat und werden via SFX zurück zu Ihrem Moodlekurs geleitet. <br>
 Nach dem Speichern der Literaturangaben scannt die Universitätsbibliothek das Material für Sie. Die PDF-Datei wird automatisch nach wenigen Tagen in Moodle bereitgestellt. <br>
 Weitere Hilfe finden Sie unter <a href="http://www.ub.tum.de/digisem" target="_blank">http://www.ub.tum.de/digisem</a>.';
@@ -44,7 +44,7 @@ $string['name_help'] = 'Geben Sie einen Namen für Ihre Bestellung ein. Für Stu
 $string['book_specifiers'] = 'Literaturangaben';
 
 $string['import_from_opac'] = 'Daten aus dem OPAC importieren...';
-$string['import_from_opac_help'] = 'Recherchieren Sie komfortabel im Online-Katalog (OPAC) die Literaturangaben. Dort finden Sie unter \'Bestellen\' den digitalen Semesterapparat und werden via SFX zurück zu Ihrem Moodlekurs geleitet.<br> 
+$string['import_from_opac_help'] = 'Recherchieren Sie komfortabel im Online-Katalog (OPAC) die Literaturangaben. Dort finden Sie unter \'Bestellen\' den digitalen Semesterapparat und werden via SFX zurück zu Ihrem Moodlekurs geleitet.<br>
 Nach dem Speichern der Literaturangaben scannt die Universitätsbibliothek das Material für Sie. <br>
 Die PDF-Datei wird automatisch nach wenigen Tagen in Moodle bereitgestellt. <br>
 <a href="http://mediatum.ub.tum.de/node?id=1126134">eTutorial zum Digitalen Semesterapparat</a>. <br>
@@ -133,8 +133,7 @@ $string['delivery_email_attach_details_desc'] = 'Details der Bestellung wie Name
 
 $string['delivery_email_subject'] = 'TUM/MOODLE: Digitalisierung abgeschlossen';
 $string['delivery_email_body'] = 'Ihr Digitalisierungsauftrag wurde abgeschlossen und das bestellte Medium in Moodle eingebunden. ';
-
 $string['view_error'] = "Dieses Dokument steht im Moment nicht zur Verf&uuml;gung. ";
+string['get_deliveries'] = "Digitalizaten abholen";
 
 ?>
-

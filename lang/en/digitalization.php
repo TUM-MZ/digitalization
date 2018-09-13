@@ -30,7 +30,7 @@ defined('MOODLE_INTERNAL') || die();
 //Common module fields
 $string['modulename'] = 'Digitalization';
 $string['modulenameplural'] = 'Digitalizations';
-$string['modulename_help'] = 'Order Digitalisations from magazine articles or book chapters from the stock of the university library. <br> 
+$string['modulename_help'] = 'Order Digitalisations from magazine articles or book chapters from the stock of the university library. <br>
 Research comfortable for bibliography references in the Online-Catalouge (OPAC). Via `Bestellen` you can find the digitalization and you will be send via SFX back to your Moodle course. <br> After saving the literature references the university library will scann the material for you. The PDF output will be provided in Moodle after some days automatically. <br>
 For more information see <a href="http://www.ub.tum.de/digisem" target="_blank">http://www.ub.tum.de/digisem</a>.';
 $string['Digitalization'] = 'Digitalization';
@@ -128,7 +128,7 @@ $string['delivery_email_attach_details_desc'] = 'Send the details of the digital
 
 $string['delivery_email_subject'] = 'TUM/MOODLE: Digitalization completed';
 $string['delivery_email_body'] = 'Your digitalization order is completed and the delivered file was linked to your Moolde course.';
-
 $string['view_error'] = 'This document is temporarily not available.';
-?>
+string['get_deliveries'] = "Get digitalization deliveries.";
 
+?>
