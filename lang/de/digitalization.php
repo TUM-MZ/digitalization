@@ -134,6 +134,6 @@ $string['delivery_email_attach_details_desc'] = 'Details der Bestellung wie Name
 $string['delivery_email_subject'] = 'TUM/MOODLE: Digitalisierung abgeschlossen';
 $string['delivery_email_body'] = 'Ihr Digitalisierungsauftrag wurde abgeschlossen und das bestellte Medium in Moodle eingebunden. ';
 $string['view_error'] = "Dieses Dokument steht im Moment nicht zur Verf&uuml;gung. ";
-string['get_deliveries'] = "Digitalizaten abholen";
+$string['get_deliveries'] = "Digitalizaten abholen";
 
 ?>

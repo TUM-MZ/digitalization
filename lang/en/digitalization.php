@@ -129,6 +129,6 @@ $string['delivery_email_attach_details_desc'] = 'Send the details of the digital
 $string['delivery_email_subject'] = 'TUM/MOODLE: Digitalization completed';
 $string['delivery_email_body'] = 'Your digitalization order is completed and the delivered file was linked to your Moolde course.';
 $string['view_error'] = 'This document is temporarily not available.';
-string['get_deliveries'] = "Get digitalization deliveries.";
+$string['get_deliveries'] = "Get digitalization deliveries.";
 
 ?>
