@@ -19,9 +19,10 @@ class SFTPLibHandler extends FileTransferStub {
      * @return TRUE, if connection to host can be established.
      */
     function connect() {
+	global $CFG;
     
-        set_include_path(getcwd() . PATH_SEPARATOR . '../mod/digitalization/filetransfer/ext/phpseclib0.3.0');
-        require("ext/phpseclib0.3.0/Net/SFTP.php");
+        set_include_path(get_include_path() . PATH_SEPARATOR . $CFG->dirroot . '/mod/digitalization/filetransfer/ext/phpseclib');
+        require("ext/phpseclib/Net/SFTP.php");
 
         //Open connection to the remote host via SSH
         $this->sftp = new Net_SFTP($this->host);

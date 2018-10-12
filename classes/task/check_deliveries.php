@@ -12,6 +12,6 @@ class check_deliveries extends \core\task\scheduled_task {
     }
 
     public function execute() {
-        digitalization_check_delieveries();
+        digitalization_check_deliveries();
     }
 }
